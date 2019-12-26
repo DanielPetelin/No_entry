@@ -4,6 +4,8 @@ document.getElementById('proverca').onclick = function () {
 
     if (x >= 16) {
         alert('добро пожаловать!');
+    } else if (x <= 0) {
+        alert('Error');
     } else {
         alert('Вход воспрещён');
     };
